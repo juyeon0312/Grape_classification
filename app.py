@@ -1,7 +1,3 @@
-import locale
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
-
-
 from keras.models import load_model
 from PIL import Image, ImageOps #Install pillow instead of PIL
 import numpy as np
